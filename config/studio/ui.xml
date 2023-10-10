@@ -16,6 +16,7 @@
   -->
 <siteUi>
     <version>4.1.0</version>
+    <widget id="craftercms.components.Preview" initialEditModeOn="true" initialHighlightMode="all" xbDetectionTimeoutMs="5000"/>
     <widget id="craftercms.components.ToolsPanel">
         <configuration>
             <widgets>
