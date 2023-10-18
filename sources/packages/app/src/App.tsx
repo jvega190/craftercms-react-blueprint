@@ -16,47 +16,28 @@ function App() {
   }, []);
 
   return (
-    <Suspense
-      fallback={
-        <div />
-      }
-    >
+    <Suspense fallback={<div />}>
       <div className="App" role="main">
         {model && (
-          <ExperienceBuilder
-            isAuthoring={isAuthoring()}
-            path={model.craftercms?.path}
-          >
+          <ExperienceBuilder isAuthoring={isAuthoring()} path={model.craftercms?.path}>
             <header className="App-header">
-              <RenderField
-                model={model}
-                fieldId="headText_s"
-                component="p"
-              />
+              <RenderField model={model} fieldId="headText_s" component="p" />
               <RenderField
                 model={model}
                 fieldId="logo_s"
-                render={(logo, fieldId) => (<img src={`${BASE_URL}${logo}`} className="App-logo" alt="logo" />)}
+                render={(logo) => <img src={`${BASE_URL}${logo}`} className="App-logo" alt="logo" />}
               />
-              <RenderField
-                model={model}
-                fieldId="subtitle_s"
-                component="p"
-              />
-              <a
-                className="App-link"
-                href="https://reactjs.org"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
+              <RenderField model={model} fieldId="subtitle_s" component="p" />
+              <a className="App-link" href="https://reactjs.org" target="_blank" rel="noopener noreferrer">
                 Learn React
               </a>
               <div>
                 <div className="App-note">
-                <RenderField
+                  <RenderField
                     model={model}
                     fieldId="body_html"
-                    render={(value, fieldId) => (<div dangerouslySetInnerHTML={{ __html: value }} />) }
+                    renderTarget="dangerouslySetInnerHTML"
+                    render={(value) => ({ __html: value })}
                   />
                 </div>
               </div>

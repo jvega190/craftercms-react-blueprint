@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <page>
-	<content-type>/page/myapp</content-type>
-	<display-template>/templates/web/myapp.ftl</display-template>
+	<content-type>/page/app</content-type>
+	<display-template>/templates/web/app.ftl</display-template>
 	<no-template-required>true</no-template-required>
 	<merge-strategy>inherit-levels</merge-strategy>
 	<placeInNav>false</placeInNav>
@@ -26,7 +26,7 @@
 		&lt;ul&gt;
 			&lt;li&gt;To create new content types use the Project Tools &gt; Content Types menu on the left Sidebar&lt;/li&gt;
 			&lt;li&gt;To update markup, edit this template by clicking on the Options menu on the top toolbar and select "Edit Template"&lt;/li&gt;
-			&lt;li&gt;To modify this app, refer to &lt;code&gt;sources/packages/my-app/README.md&lt;/code&gt;&lt;/li&gt;
+			&lt;li&gt;To modify this app, refer to &lt;code&gt;sources/packages/app/README.md&lt;/code&gt;&lt;/li&gt;
 			&lt;li&gt;Crafter documentation can be found &lt;a class="App-link" href="https://docs.craftercms.org" target="_blank" rel="noopener noreferrer"&gt;here&lt;/a&gt;&lt;/li&gt;
 			&lt;li&gt;CrafterCMS authoring and developer training is available. Please contact &lt;a class="App-link" href="mailto:info@craftercms.com"&gt;info@craftercms.com&lt;/a&gt;&lt;/li&gt;
 		&lt;/ul&gt;
