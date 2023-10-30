@@ -217,7 +217,7 @@
 						</property>
 						<property>
 							<name>imageManager</name>
-							<value>browser,uploader</value>
+							<value>upload,browse</value>
 							<type>datasource:image</type>
 						</property>
 						<property>
@@ -323,7 +323,7 @@
 						</property>
 						<property>
 							<name>imageManager</name>
-							<value>desktopImages</value>
+							<value>upload,browse</value>
 							<type>datasource:image</type>
 						</property>
 						<property>
