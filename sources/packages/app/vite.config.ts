@@ -7,6 +7,7 @@ export default defineConfig(({ command, mode, ssrBuild }) => {
     plugins: [react()],
     base: command === 'serve' ? '/' : '/static-assets/app',
     server: {
+      open: true,
       port: 3000,
       cors: true,
       host: true
