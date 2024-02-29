@@ -1777,7 +1777,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@craftercms/content@npm:4.1.2, @craftercms/content@npm:^4.1.2":
+"@craftercms/content@npm:4.1.2, @craftercms/content@npm:^4.1.2-support.2":
   version: 4.1.2
   resolution: "@craftercms/content@npm:4.1.2"
   dependencies:
@@ -1789,7 +1789,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@craftercms/experience-builder@npm:^4.1.2-1":
+"@craftercms/experience-builder@npm:^4.1.2-support.3":
   version: 4.1.2
   resolution: "@craftercms/experience-builder@npm:4.1.2"
   dependencies:
@@ -5643,8 +5643,8 @@ __metadata:
     "@babel/plugin-syntax-flow": ^7.14.5
     "@babel/plugin-transform-react-jsx": ^7.14.9
     "@codemirror/language": ^0.20.0
-    "@craftercms/content": ^4.1.2
-    "@craftercms/experience-builder": ^4.1.2-1
+    "@craftercms/content": ^4.1.2-support.2
+    "@craftercms/experience-builder": ^4.1.2-support.3
     "@craftercms/studio-ui": ^4.1.2
     "@emotion/cache": ^11.10.5
     "@emotion/css": ^11.10.6
