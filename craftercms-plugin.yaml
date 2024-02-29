@@ -15,7 +15,7 @@ plugin:
   version:
     major: 1
     minor: 0
-    patch: 4
+    patch: 5
   description: |
     Empty React blueprint to help developers get started with a React application
   website:
