@@ -60,7 +60,7 @@ function App() {
     <Suspense fallback={<div />}>
       <div className="App" role="main">
         {model && (
-          <ExperienceBuilder isAuthoring={isAuthoring()} path={model.craftercms?.path}>
+          <ExperienceBuilder isAuthoring={isAuthoring()} model={model}>
             <Header model={model} />
           </ExperienceBuilder>
         )}
