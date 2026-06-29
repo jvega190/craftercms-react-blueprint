@@ -52,6 +52,7 @@ function App() {
 
   React.useEffect(() => {
     getModel().subscribe((model) => {
+        console.log('model', model)
       setModel(model instanceof Array ? model[0] : model);
     });
   }, []);

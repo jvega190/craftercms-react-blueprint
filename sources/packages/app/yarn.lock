@@ -1774,97 +1774,98 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@craftercms/classes@npm:4.2.0":
-  version: 4.2.0
-  resolution: "@craftercms/classes@npm:4.2.0"
+"@craftercms/classes@npm:^4.3.0, @craftercms/classes@npm:^4.4.0":
+  version: 4.4.0
+  resolution: "@craftercms/classes@npm:4.4.0"
   dependencies:
-    "@craftercms/models": 4.2.0
-    "@craftercms/utils": 4.2.0
+    "@craftercms/models": ^4.3.0
+    "@craftercms/utils": ^4.3.0
     query-string: ^9.1.0
-  checksum: 50f25e8fe2427eb27e85365746a3f8be67a6e84da0659bcbf7735fafef69e835ebb1236f0061cdba2f5b559707c20b0253e1392215c51e2ebb230149fe73922c
+  checksum: cf7fc303c42c20c239a001fa05b4768d751ea1ab9117e0d043bdafdef70a54a341810add6884c2c21a9000c03af782f0bcbef38d2c3e6a2fea14323aac4d3c9c
   languageName: node
   linkType: hard
 
-"@craftercms/content@npm:4.2.0, @craftercms/content@npm:^4.2.0":
-  version: 4.2.0
-  resolution: "@craftercms/content@npm:4.2.0"
+"@craftercms/content@npm:^4.3.0, @craftercms/content@npm:^4.4.2":
+  version: 4.4.2
+  resolution: "@craftercms/content@npm:4.4.2"
   dependencies:
-    "@craftercms/classes": 4.2.0
-    "@craftercms/models": 4.2.0
-    "@craftercms/utils": 4.2.0
-    rxjs: ^7.8.1
-  checksum: 7436d365e480519b68cc2dc689de066610fae9a24f717bf58c93333399ce8875257755b08f3771996876130e0e9ebb3ff5b139fbe17ceef209334756ab2d7828
+    "@craftercms/classes": ^4.4.0
+    "@craftercms/models": ^4.3.0
+    "@craftercms/utils": ^4.3.0
+    rxjs: ^7.8.0
+  checksum: f86503fea1d5323c6fa16291a34a7b062184eccd79b2799d50a287ec6655f2a8e107c53c30a7b4ee61e54500bb62d2ff7dd4e8e1a879635320b79d5919b0cb95
   languageName: node
   linkType: hard
 
-"@craftercms/experience-builder@npm:^4.2.0":
-  version: 4.2.0
-  resolution: "@craftercms/experience-builder@npm:4.2.0"
+"@craftercms/experience-builder@npm:^4.3.0":
+  version: 4.3.0
+  resolution: "@craftercms/experience-builder@npm:4.3.0"
   dependencies:
-    "@craftercms/classes": 4.2.0
-    "@craftercms/content": 4.2.0
-    "@craftercms/ice": 4.2.0
-    "@craftercms/search": 4.2.0
-    "@craftercms/studio-ui": 4.2.0
+    "@craftercms/classes": ^4.3.0
+    "@craftercms/content": ^4.3.0
+    "@craftercms/ice": ^4.3.0
+    "@craftercms/search": ^4.3.0
+    "@craftercms/studio-ui": ^4.3.0
     "@reduxjs/toolkit": ^2.2.5
-    "@types/react-dom": ^18.2.18
+    "@rollup/plugin-alias": ^5.1.0
+    "@types/react-dom": ^18.3.0
     js-cookie: ^3.0.5
     prop-types: ^15.8.1
-    react-hotkeys-hook: ^4.0.0
-    react-is: ^18.0.0
+    react-hotkeys-hook: ^4.5.0
+    react-is: ^18.3.1
     uuid: ^10.0.0
   peerDependencies:
-    "@emotion/css": ^11.11.2
-    "@emotion/react": ^11.11.3
-    "@emotion/styled": ^11.11.0
-    "@mui/icons-material": ^5.0.0 || ^6.0.0
-    "@mui/material": ^5.0.0 || ^6.0.0
+    "@emotion/css": ^11.13.0
+    "@emotion/react": ^11.13.3
+    "@emotion/styled": ^11.13.0
+    "@mui/icons-material": ^5.15.20 || ^6.0.0
+    "@mui/material": ^5.16.7 || ^6.0.0
     react: ^18.0.0
     react-dom: ^18.0.0
-    react-redux: ^9.0.0
+    react-redux: ^9.1.0
     redux: ^5.0.0
     redux-observable: ^3.0.0-rc.2
-    rxjs: ^7.0.0
-  checksum: 26f0344e682a1ade2fc7cda5e0bc2779ba44d13ecbd18760df7f5b3955c87a394b856f278abd4ea4e412a28c642124ae99ec25b7a629d933c214fe4a0a2a4057
+    rxjs: ^7.8.0
+  checksum: 685ae403ed072385cb6f794b9235405212b7a59434ad143b0ad1c8c9d92d15573ac00415d037ba52e532db89e2a760cda2a454851fe13623cb77d650fbc21774
   languageName: node
   linkType: hard
 
-"@craftercms/ice@npm:4.2.0":
-  version: 4.2.0
-  resolution: "@craftercms/ice@npm:4.2.0"
+"@craftercms/ice@npm:^4.3.0":
+  version: 4.3.0
+  resolution: "@craftercms/ice@npm:4.3.0"
   dependencies:
-    "@craftercms/models": 4.2.0
+    "@craftercms/models": ^4.3.0
   peerDependencies:
     react: ^18.0.0
-  checksum: 6aa95b3ef4c4586e58442e5c60b5f8eba3dedefa95f47100c7904bbd5cbc72e205bf2fcfa998447137c73bfd114e90b69c2992c39584a56a71a40a865d37aee7
+  checksum: 811b50ad41aa28e1f833769a8705f05508eed28735fc296efd65cb314cc4903642fcc15dcc6d56d72b02eda1a35e01f20daeec9eaaca756bf04be458c47b844b
   languageName: node
   linkType: hard
 
-"@craftercms/models@npm:4.2.0":
-  version: 4.2.0
-  resolution: "@craftercms/models@npm:4.2.0"
-  checksum: 77000796612273ca22c3002d694010d65b0aca570e1120971abacc02fecdf1dcda8974f51d2a920c63bdffc52f69335ed8b5bbadde25d941ad7cebb3979cc2d7
+"@craftercms/models@npm:^4.3.0":
+  version: 4.3.0
+  resolution: "@craftercms/models@npm:4.3.0"
+  checksum: 63cf95b31d4c8c6208f6799bb038db50269193b56c84262d23675ab581d91b4cd2be1b8f0bf3641fe48358e6f65ea88868a6944ba453d80113de939f51865bdd
   languageName: node
   linkType: hard
 
-"@craftercms/search@npm:4.2.0":
-  version: 4.2.0
-  resolution: "@craftercms/search@npm:4.2.0"
+"@craftercms/search@npm:^4.3.0":
+  version: 4.3.0
+  resolution: "@craftercms/search@npm:4.3.0"
   dependencies:
-    "@craftercms/classes": 4.2.0
-    "@craftercms/models": 4.2.0
-    "@craftercms/utils": 4.2.0
-    rxjs: ^7.8.1
+    "@craftercms/classes": ^4.3.0
+    "@craftercms/models": ^4.3.0
+    "@craftercms/utils": ^4.3.0
+    rxjs: ^7.8.0
     uuid: ^10.0.0
-  checksum: 4f2151af09993da3943dd3bdf0108e8d606e29fb7a7dcca4d8e64817cb60e2715b4280144da465664bc6ded5abf7393b97dec55f609413b0d5830059c41526d4
+  checksum: c6d32ce322b3726a1392ff4c69a13b41148d1a31ddac188fd4523427305f6f8560707d7cf18f02421847be924dc4bfe3e7f0b90dbd09d8820c31aea987f78f78
   languageName: node
   linkType: hard
 
-"@craftercms/studio-ui@npm:4.2.0, @craftercms/studio-ui@npm:^4.2.0":
-  version: 4.2.0
-  resolution: "@craftercms/studio-ui@npm:4.2.0"
+"@craftercms/studio-ui@npm:^4.3.0":
+  version: 4.3.0
+  resolution: "@craftercms/studio-ui@npm:4.3.0"
   dependencies:
-    "@craftercms/uppy": 4.2.0
+    "@craftercms/uppy": ^4.3.0
     "@graphiql/plugin-explorer": ^3.0.1
     "@mui/x-data-grid": ^7.13.0
     "@mui/x-date-pickers": ^7.13.0
@@ -1903,39 +1904,39 @@ __metadata:
     uuid: ^10.0.0
     zxcvbn: ^4.4.2
   peerDependencies:
-    "@emotion/css": ^11.11.2
-    "@emotion/react": ^11.11.3
-    "@emotion/styled": ^11.11.0
-    "@mui/icons-material": ^5.15.7
-    "@mui/lab": ^5.0.0-alpha.163
-    "@mui/material": ^5.15.7
+    "@emotion/css": ^11.13.0
+    "@emotion/react": ^11.13.3
+    "@emotion/styled": ^11.13.0
+    "@mui/icons-material": ^5.15.20 || ^6.0.0
+    "@mui/lab": "*"
+    "@mui/material": ^5.16.7 || ^6.0.0
     query-string: ^9.0.0
     react: ^18.0.0
     react-dom: ^18.0.0
-    react-intl: ^6.0.5
-    react-redux: ^7.2.9
-    react-router-dom: ^6.0.0
-    redux: ^5.0.0
+    react-intl: ^6.6.8
+    react-redux: ^9.1.0
+    react-router-dom: ^6.23.1
+    redux: ^5.0.1
     redux-observable: ^3.0.0-rc.2
-    rxjs: ^7.0.0
-    video.js: ^8.12.0
-  checksum: 39c57b86d918234beee89ec4d9bfdd5dbb8165443712a9092b52ce49b1b267d05aebe6c36a06bad57fc7b586c6fb7dda647b72f833f16b411bab744936e5f782
+    rxjs: ^7.8.0
+    video.js: ^8.14.0
+  checksum: 8655ddc6472260347244175421a94c6800842cb322f6ac38490d40b00476f73359a439024aa48896ad9dbe43bf9f2e6de67b5266d57b046de07f0c9038fd8305
   languageName: node
   linkType: hard
 
-"@craftercms/uppy@npm:4.2.0":
-  version: 4.2.0
-  resolution: "@craftercms/uppy@npm:4.2.0"
+"@craftercms/uppy@npm:^4.3.0":
+  version: 4.3.0
+  resolution: "@craftercms/uppy@npm:4.3.0"
   peerDependencies:
     uppy: ^3.27.3
-  checksum: af70328490769a3825b38a1b35e6f920faf16da74b3b9702c4a5dc0a9776072e66177efbb1ef5062e46c3c6c97098fe617ed1d34ce3dc1b3c755ad3d89f7e506
+  checksum: d708abd138b04002db44c981f28415d773a9018ad9544194351f6b03d7b46267dbc14f2cbe79c9bb9b6b3706b6975263e763636595cfd96fb149294350bc5e23
   languageName: node
   linkType: hard
 
-"@craftercms/utils@npm:4.2.0":
-  version: 4.2.0
-  resolution: "@craftercms/utils@npm:4.2.0"
-  checksum: 081d8f3ec4f045b1bb6158aa832a600d6753f259d5f312b81c39b88b67757e082aec54d85bcf646da13cef224ca5388470a62d626fc196d87660a83c2c1b26f1
+"@craftercms/utils@npm:^4.3.0":
+  version: 4.3.0
+  resolution: "@craftercms/utils@npm:4.3.0"
+  checksum: 84f12b8a484b99b97e39d24f683b7c1fcc5456903b6e1545d3a73f73c7b239a387b5823b98e7047bd4f4f3c0dab1ee2bb7abd2653cf1b102052b633504427bdd
   languageName: node
   linkType: hard
 
@@ -4292,6 +4293,18 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@rollup/plugin-alias@npm:^5.1.0":
+  version: 5.1.1
+  resolution: "@rollup/plugin-alias@npm:5.1.1"
+  peerDependencies:
+    rollup: ^1.20.0||^2.0.0||^3.0.0||^4.0.0
+  peerDependenciesMeta:
+    rollup:
+      optional: true
+  checksum: 742ccb82170542a8229444bc3961f4c9b0a9eff890662e77ad201a7e04a91d67fa6f68d85c997032aa1845f8b991cf1f9a3329c77b4b067be80dad3c25abfb6b
+  languageName: node
+  linkType: hard
+
 "@rollup/plugin-babel@npm:^5.2.0":
   version: 5.3.1
   resolution: "@rollup/plugin-babel@npm:5.3.1"
@@ -5045,7 +5058,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react-dom@npm:^18.2.18, @types/react-dom@npm:^18.3.0":
+"@types/react-dom@npm:^18.3.0":
   version: 18.3.5
   resolution: "@types/react-dom@npm:18.3.5"
   peerDependencies:
@@ -6425,9 +6438,10 @@ __metadata:
     "@babel/plugin-syntax-flow": ^7.14.5
     "@babel/plugin-transform-react-jsx": ^7.14.9
     "@codemirror/language": ^0.20.0
-    "@craftercms/content": ^4.2.0
-    "@craftercms/experience-builder": ^4.2.0
-    "@craftercms/studio-ui": ^4.2.0
+    "@craftercms/content": ^4.4.2
+    "@craftercms/experience-builder": ^4.3.0
+    "@craftercms/models": ^4.3.0
+    "@craftercms/studio-ui": ^4.3.0
     "@emotion/cache": ^11.10.5
     "@emotion/css": ^11.10.6
     "@emotion/react": ^11.10.6
@@ -6461,7 +6475,7 @@ __metadata:
     react-scripts: 5.0.1
     redux: 4.2.1
     redux-observable: ^2.0.0
-    rxjs: ^7.5.2
+    rxjs: ^7.8.1
     typescript: ^4.4.2
     video.js: ^7.21.2
     vite: ^4.3.2
@@ -14876,7 +14890,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-hotkeys-hook@npm:^4.0.0, react-hotkeys-hook@npm:^4.5.0":
+"react-hotkeys-hook@npm:^4.5.0":
   version: 4.6.1
   resolution: "react-hotkeys-hook@npm:4.6.1"
   peerDependencies:
@@ -14939,6 +14953,13 @@ __metadata:
   version: 18.2.0
   resolution: "react-is@npm:18.2.0"
   checksum: e72d0ba81b5922759e4aff17e0252bd29988f9642ed817f56b25a3e217e13eea8a7f2322af99a06edb779da12d5d636e9fda473d620df9a3da0df2a74141d53e
+  languageName: node
+  linkType: hard
+
+"react-is@npm:^18.3.1":
+  version: 18.3.1
+  resolution: "react-is@npm:18.3.1"
+  checksum: e20fe84c86ff172fc8d898251b7cc2c43645d108bf96d0b8edf39b98f9a2cae97b40520ee7ed8ee0085ccc94736c4886294456033304151c3f94978cec03df21
   languageName: node
   linkType: hard
 
@@ -15681,7 +15702,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"rxjs@npm:^7.0.0, rxjs@npm:^7.5.2, rxjs@npm:^7.8.1":
+"rxjs@npm:^7.8.1":
   version: 7.8.1
   resolution: "rxjs@npm:7.8.1"
   dependencies:
